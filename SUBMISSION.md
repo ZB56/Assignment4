@@ -5,11 +5,11 @@
 | Direction | Status |
 | --- | --- |
 | UI mimicking the Grid Layout in the provided image | Done |
-| Icons/images on each card | Done — artwork generated for this project |
+| Icons/images on each card | Done — icons from Icons8 (icons8.com), as the directions permit |
 | Dynamic screen navigation on tapping an item | Done — native stack, one `Detail` route |
 | The five required messages on the detail screens | Done — wording matches the directions |
 | Back button visible at the top | Done — native stack header back arrow |
-| Screen record a demo in the AVD | **You** — needs screen-recording software (Kaltura) |
+| Screen record a demo in the AVD | Done — `demo.mp4` (47s) in this folder |
 | Upload the video to a cloud service | **You** — needs your OU OneDrive login |
 | Upload the project code to GitHub | Done — https://github.com/ZB56/Assignment4 (private) |
 | Submit both share links on Canvas | **You** — needs the links first |
@@ -26,7 +26,7 @@
 | 6 | Text on navigation screens (10) | `src/data/apps.ts` — the five messages, wording taken from the directions |
 | 7 | Code commenting (10) | Every file; comments explain *why*, not just *what* |
 | 8 | Functioning program (10) | Verified on the AVD: no crashes, no JS console output, no redbox. TypeScript, ESLint, and Jest all pass |
-| 9 | Video demonstration (10) | **Yours to record** |
+| 9 | Video demonstration (10) | `demo.mp4` — grid, all five screens, back arrow after each |
 
 ## Verified on the emulator
 
@@ -42,7 +42,7 @@ grid every time:
 
 Checks: `npx tsc --noEmit` clean, `npx eslint .` clean, `npm test` passing.
 
-## Before you record the demo
+## Running it yourself
 
 A Metro dev server for your **EventPassBooking** project was already running on
 port 8081, and the emulator reaches the host at `10.0.2.2:8081` — so this app
@@ -68,17 +68,17 @@ permission and is not in the app's manifest.
 
 ## Remaining steps
 
-1. Record the demo: launch the app, tap each of the five tiles, and use the back
-   arrow after each one.
-2. Upload the recording to your OU OneDrive and copy the share link.
-3. **Give your instructor access to the repo.** It is private, so the link
+1. Upload `demo.mp4` to your OU OneDrive and copy the share link. It was
+   recorded with `adb screenrecord` on the AVD rather than Kaltura, which the
+   directions allow ("using any screen recording software").
+2. **Give your instructor access to the repo.** It is private, so the link
    below will 404 for them until you do. Either add them under
    Settings -> Collaborators, or make it public with:
 
    ```
    gh repo edit ZB56/Assignment4 --visibility public --accept-visibility-change-consequences
    ```
-4. Paste both links into the text below and submit on Canvas.
+3. Paste both links into the text below and submit on Canvas.
 
 ## Text to paste into Canvas
 

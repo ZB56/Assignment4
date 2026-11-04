@@ -51,8 +51,11 @@ src/screens/HomeScreen.tsx   The grid
 src/screens/DetailScreen.tsx The message screen
 ```
 
-The tile artwork in `assets/` was generated for this project rather than taken
-from a vendor's icon set.
+## Credits
+
+The tile artwork in `assets/` comes from [Icons8](https://icons8.com), used
+under their free licence, which the assignment permits ("You can use
+icons/images from the internet").
 
 ## Running it
 

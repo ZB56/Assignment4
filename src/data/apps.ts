@@ -7,6 +7,9 @@
  *
  * The `message` strings are the ones named in the assignment directions.
  *
+ * The artwork in `assets/` comes from Icons8 (https://icons8.com), used under
+ * their free licence.
+ *
  * @format
  */
 
