@@ -11,7 +11,7 @@
 | Back button visible at the top | Done — native stack header back arrow |
 | Screen record a demo in the AVD | **You** — needs screen-recording software (Kaltura) |
 | Upload the video to a cloud service | **You** — needs your OU OneDrive login |
-| Upload the project code to GitHub | **You/me** — not pushed yet, say the word |
+| Upload the project code to GitHub | Done — https://github.com/ZB56/Assignment4 (private) |
 | Submit both share links on Canvas | **You** — needs the links first |
 
 ## Rubric coverage
@@ -62,13 +62,22 @@ The emulator was also granted `ACCESS_LOCAL_NETWORK`, which Android 16 requires
 before a debug build can reach the Metro dev server. It is a debug-only
 permission and is not in the app's manifest.
 
+> The GitHub repo is **private**. Your instructor will get a 404 unless you add
+> them as a collaborator or make the repo public — see step 3 below. This is the
+> same thing to check on Assignment 3's repo, `ZB56/ou-todo-list`.
+
 ## Remaining steps
 
 1. Record the demo: launch the app, tap each of the five tiles, and use the back
    arrow after each one.
 2. Upload the recording to your OU OneDrive and copy the share link.
-3. Push the code to GitHub and give your instructor access — if the repo is
-   private they will get a 404.
+3. **Give your instructor access to the repo.** It is private, so the link
+   below will 404 for them until you do. Either add them under
+   Settings -> Collaborators, or make it public with:
+
+   ```
+   gh repo edit ZB56/Assignment4 --visibility public --accept-visibility-change-consequences
+   ```
 4. Paste both links into the text below and submit on Canvas.
 
 ## Text to paste into Canvas
@@ -77,7 +86,7 @@ permission and is not in the app's manifest.
 
 Demo Video: `<paste your OneDrive share link here>`
 
-GitHub Project: `<paste your GitHub repo link here>`
+GitHub Project: https://github.com/ZB56/Assignment4
 
 **Overview**
 
